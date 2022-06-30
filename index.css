@@ -132,25 +132,8 @@ body{
 }
 
 @media (max-width: 400px) {
-    #SearchBarDiv{
-        height: 150px; 
-    }
-
-    #AccountLogo{
-        height: 150px;
-        width: 150px;
-    }
-
-    #HomeLink{
-        font-size: 135px;
-    }
-
-    #ScheduleLink{
-        font-size: 135px;
-    }
-
-    #LiveLink{
-        font-size: 135px;
+    body{
+        background-color: aqua;
     }
 
     
