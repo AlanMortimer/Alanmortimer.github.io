@@ -130,3 +130,34 @@ body{
         margin-left: 350px;
     }
 }
+
+@media (max-width: 500px) {
+    #SearchBarDiv{
+        height: 40px; 
+    }
+
+    
+
+   
+
+   
+
+    #AccountLogo{
+        height: 40;
+        width: 40px;
+    }
+
+    #HomeLink{
+        font-size: 25px;
+    }
+
+    #ScheduleLink{
+        font-size: 25px;
+    }
+
+    #LiveLink{
+        font-size: 25px;
+    }
+
+    
+}
