@@ -131,26 +131,26 @@ body{
     }
 }
 
-@media (max-width: 499px) {
+@media (max-width: 400px) {
     #SearchBarDiv{
-        height: 50px; 
+        height: 150px; 
     }
 
     #AccountLogo{
-        height: 50px;
-        width: 50px;
+        height: 150px;
+        width: 150px;
     }
 
     #HomeLink{
-        font-size: 35px;
+        font-size: 135px;
     }
 
     #ScheduleLink{
-        font-size: 35px;
+        font-size: 135px;
     }
 
     #LiveLink{
-        font-size: 35px;
+        font-size: 135px;
     }
 
     
