@@ -3,7 +3,7 @@ body{
 }
 
 #NavBar{
-    width: 450px;
+    width: 750px;
     margin: 0 auto;
     margin-top: 20px;
     height: 40px;
@@ -26,7 +26,7 @@ body{
     font-weight: bolder ;
     font-size: 15px;
     color: #909090;
-    margin-left: 50px;
+    margin-left: 70px;
 }
 
 #HomeLink:hover{
@@ -39,7 +39,7 @@ body{
     font-weight: bolder ;
     font-size: 15px;
     color: #909090;
-    margin-left: 20px;
+    margin-left: 50px;
 }
 
 #ScheduleLink:hover{
@@ -51,7 +51,7 @@ body{
     font-family: 'Nunito Sans', sans-serif;
     font-weight: bolder ;
     font-size: 15px;
-    margin-left: 20px;
+    margin-left: 50px;
     color: #909090;
 }
 
@@ -62,10 +62,10 @@ body{
 #SearchBarDiv{
     background-color: #353535;
     border-radius: 40px;
-    margin-left: 245px;
+    margin-left: 270px;
     margin-top: -25px;
-    height: 30px;
-    width: 40%;
+    height: 30px;  
+    width: 400px;  
     min-width: 200px;
 }
 
@@ -74,67 +74,16 @@ body{
     border: none;
     color: #ffffff;
     width: 80%;
-    margin-top: -7px;
+    margin-top: 6px;
     margin-left: 10px;
     outline: none;
 }
 
 #SearchIcon{
-    margin-left: auto;
+    position: absolute;
+    margin-left: 40px;
     margin-top: 7px;
     margin-bottom: -2px;
     height: 15px;
     width: 15px;
-}
-
-@media (min-width: 900px) {
-    #SearchBarDiv{
-        margin-left: 270px;     
-        width: 400px;  
-    }
-
-    #SearchIcon{
-        position: absolute;
-        margin-left: 40px;
-        
-    }
-
-    #SearchBar{
-       
-        margin-top: 6px;
-       
-    }
-
-    #NavBar{
-        width: 750px;
-        
-    }
-
-    #AccountLogo{
-        margin-left: -0px;
-    }
-
-    #HomeLink{
-        margin-left: 70px;
-    }
-
-    #ScheduleLink{
-        margin-left: 50px;
-    }
-
-    #LiveLink{
-        margin-left: 50px;
-    }
-
-    #SearchBarDiv{
-        margin-left: 350px;
-    }
-}
-
-@media (max-width: 800px) {
-    body{
-        background-color: aqua;
-    }
-
-    
 }
