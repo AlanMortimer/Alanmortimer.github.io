@@ -1,4 +1,4 @@
-if (window.innerWidth < 91160) {
+if (window.innerWidth < 960) {
     alert('Less than 960');
 }
 else {
