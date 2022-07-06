@@ -2,11 +2,18 @@ if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigat
     var TrackitLogoDiv = document.getElementById("TrackitLogoDiv")
     TrackitLogoDiv.style.display="none"
 
+    var NavBar = document.getElementById("NavBar")
+    NavBar.style.position="absolute"
+    NavBar.style.bottom="0px"
+    NavBar.style.height="70px"
+
+
+
     var HomeDiv = document.getElementById("HomeDiv")
     HomeDiv.style.width="70px"
     HomeDiv.style.height="70px"
     HomeDiv.style.borderRadius="70px"
-    HomeDiv.style.marginTop="100%"
+    HomeDiv.style.marginTop= "auto";
    
     var HomeIcon = document.getElementById("HomeIcon")
     HomeIcon.style.width="70px"
@@ -39,18 +46,17 @@ if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigat
     AccountDiv.style.height="70px"
     AccountDiv.style.borderRadius="70px"
    
+    
+   
     var AccountIcon = document.getElementById("AccountIcon")
     AccountIcon.style.width="70px"
     AccountIcon.style.height="70px"
 
     var SearchBarDiv = document.getElementById("SearchBarDiv")
-    SearchBarDiv.style.width="70px"
-    SearchBarDiv.style.height="70px"
-    SearchBarDiv.style.borderRadius="70px"
+    SearchBarDiv.style.display="none"
    
     var SearchIcon = document.getElementById("SearchIcon")
-    SearchIcon.style.width="70px"
-    SearchIcon.style.height="70px"
 }else{
-   
+    
+    
 }
