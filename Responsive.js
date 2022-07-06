@@ -1,8 +1,4 @@
-if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
-    
-}else{
-    
-    var TrackitLogoDiv = document.getElementById("TrackitLogoDiv")
+   var TrackitLogoDiv = document.getElementById("TrackitLogoDiv")
     TrackitLogoDiv.style.display="none"
 
     var NavBar = document.getElementById("NavBar")
@@ -69,4 +65,3 @@ if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigat
     SearchBarDiv.style.display="none"
    
     var SearchIcon = document.getElementById("SearchIcon")
-}
