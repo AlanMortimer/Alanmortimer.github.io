@@ -1,4 +1,5 @@
-   var TrackitLogoDiv = document.getElementById("TrackitLogoDiv")
+if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
+    var TrackitLogoDiv = document.getElementById("TrackitLogoDiv")
     TrackitLogoDiv.style.display="none"
 
     var NavBar = document.getElementById("NavBar")
@@ -17,10 +18,10 @@
     HomeDiv.style.marginLeft="100px"
    
     var HomeIcon = document.getElementById("HomeIcon")
-    HomeIcon.style.width="90px"
-    HomeIcon.style.height="90px"
-    HomeIcon.style.marginLeft="7.5px"
-    HomeIcon.style.marginTop="2px"
+    HomeIcon.style.width="70px"
+    HomeIcon.style.height="70px"
+    HomeIcon.style.marginLeft="17px"
+    HomeIcon.style.marginTop="17px"
 
     var LiveDiv = document.getElementById("LiveDiv")
     LiveDiv.style.width="105px"
@@ -30,10 +31,10 @@
     LiveDiv.style.marginLeft="300px"
    
     var LiveIcon = document.getElementById("LiveIcon")
-    LiveIcon.style.width="90px"
-    LiveIcon.style.height="90px"
-    LiveIcon.style.marginTop="8px"
-    LiveIcon.style.marginLeft="7.5px"
+    LiveIcon.style.width="70px"
+    LiveIcon.style.height="70px"
+    LiveIcon.style.marginLeft="17px"
+    LiveIcon.style.marginTop="17px"
 
 
     var ScheduleDiv = document.getElementById("ScheduleDiv")
@@ -43,10 +44,10 @@
     ScheduleDiv.style.marginTop="-105px"
     ScheduleDiv.style.marginLeft="500px"
     var ScheduleIcon = document.getElementById("ScheduleIcon")
-    ScheduleIcon.style.width="80px"
-    ScheduleIcon.style.height="80px"
-    ScheduleIcon.style.marginLeft="12.5px"
-    ScheduleIcon.style.marginTop="10px"
+    ScheduleIcon.style.width="60px"
+    ScheduleIcon.style.height="60px"
+    ScheduleIcon.style.marginLeft="22px"
+    ScheduleIcon.style.marginTop="22px"
 
     var AccountDiv = document.getElementById("AccountDiv")
     AccountDiv.style.width="105px"
@@ -56,12 +57,16 @@
     AccountDiv.style.marginLeft="700px"
    
     var AccountIcon = document.getElementById("AccountIcon")
-    AccountIcon.style.width="90px"
-    AccountIcon.style.height="90px"
-    AccountIcon.style.marginLeft="7.5px"
-    AccountIcon.style.marginTop="8px"
+    AccountIcon.style.width="70px"
+    AccountIcon.style.height="70px"
+    AccountIcon.style.marginLeft="17px"
+    AccountIcon.style.marginTop="17px"
 
     var SearchBarDiv = document.getElementById("SearchBarDiv")
     SearchBarDiv.style.display="none"
    
     var SearchIcon = document.getElementById("SearchIcon")
+}else{
+    
+ 
+}
