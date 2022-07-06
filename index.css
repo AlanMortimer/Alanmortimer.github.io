@@ -2,12 +2,17 @@ body{
   background-color: black;
 }
 
+
+
 #NavBar{
     margin-left: auto;
     margin-right: auto;
     width: fit-content;
     height: 40px;
+    
 }
+
+
 
 #TrackitLogoDiv{
     
@@ -34,10 +39,11 @@ body{
     margin-top: -40px;
     border-radius: 40px;
     cursor: pointer;
+    
 }
 
 #HomeDiv:hover{
-    background-color: #151515;
+    background-color: #353535;
 }
 
 #HomeIcon{
@@ -68,7 +74,7 @@ body{
 }
 
 #LiveDiv:hover{
-    background-color: #151515;
+    background-color: #353535;
 }
 
 #LiveIcon{
@@ -99,7 +105,7 @@ body{
 }
 
 #ScheduleDiv:hover{
-    background-color: #151515;
+    background-color: #353535;
 }
 
 #ScheduleIcon{
@@ -130,7 +136,7 @@ body{
 }
 
 #AccountDiv:hover{
-    background-color: #151515;
+    background-color: #353535;
 }
 
 #AccountIcon{
