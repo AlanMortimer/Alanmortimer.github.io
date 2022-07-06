@@ -6,7 +6,7 @@ if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigat
     HomeDiv.style.width="70px"
     HomeDiv.style.height="70px"
     HomeDiv.style.borderRadius="70px"
-    HomeDiv.style.marginTop="auto"
+    HomeDiv.style.marginTop="100%"
    
     var HomeIcon = document.getElementById("HomeIcon")
     HomeIcon.style.width="70px"
@@ -52,5 +52,5 @@ if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigat
     SearchIcon.style.width="70px"
     SearchIcon.style.height="70px"
 }else{
-  
+   
 }
