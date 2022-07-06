@@ -1,21 +1,18 @@
 if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
     var TrackitLogoDiv = document.getElementById("TrackitLogoDiv")
-    TrackitLogoDiv.style.width="70px"
-    TrackitLogoDiv.style.height="70px"
-    TrackitLogoDiv.style.borderRadius="70px"
-   
-    var TrackitLogo = document.getElementById("TrackitLogo")
-    TrackitLogo.style.width="70px"
-    TrackitLogo.style.height="70px"
+    TrackitLogoDiv.style.display="none"
 
     var HomeDiv = document.getElementById("HomeDiv")
     HomeDiv.style.width="70px"
     HomeDiv.style.height="70px"
     HomeDiv.style.borderRadius="70px"
+    HomeDiv.style.marginTop="auto"
    
     var HomeIcon = document.getElementById("HomeIcon")
     HomeIcon.style.width="70px"
     HomeIcon.style.height="70px"
+    HomeIcon.style.marginLeft="-5px"
+    HomeIcon.style.marginTop="-5px"
 
     var LiveDiv = document.getElementById("LiveDiv")
     LiveDiv.style.width="70px"
