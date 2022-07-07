@@ -63,10 +63,30 @@ if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigat
     AccountIcon.style.marginTop="17px"
 
     var SearchBarDiv = document.getElementById("SearchBarDiv")
-    SearchBarDiv.style.display="none"
-   
+    SearchBarDiv.style.width="105px"
+    SearchBarDiv.style.height="105px"
+    SearchBarDiv.style.borderRadius="105px"
+    SearchBarDiv.style.marginTop="-105px"
+    SearchBarDiv.style.marginLeft="900px"
+    SearchBarDiv.style.backgroundColor="transparent"
+    SearchBarDiv.onmouseover = function(){
+        SearchBarDiv.style.backgroundColor="#353535"
+    };
+
+    SearchBarDiv.onmouseleave = function(){
+        SearchBarDiv.style.backgroundColor="transparent"
+    };
+
+
+    var SearchBar = document.getElementById("SearchBar")
+    SearchBar.style.display="none"
+
     var SearchIcon = document.getElementById("SearchIcon")
+    SearchIcon.style.width="70px"
+    SearchIcon.style.height="70px"
+    SearchIcon.style.marginLeft="17px"
+    SearchIcon.style.marginTop="17px"
 }else{
     
- 
+
 }
