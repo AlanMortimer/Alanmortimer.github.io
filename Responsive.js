@@ -2,6 +2,11 @@ if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigat
     var TrackitLogoDiv = document.getElementById("TrackitLogoDiv")
     TrackitLogoDiv.style.display="none"
 
+    var NavBarDiv = document.getElementById("NavBarDiv")
+    NavBarDiv.style.position="absolute"
+    NavBarDiv.style.bottom="0px"
+    NavBarDiv.style.height="105px"
+
     var NavBar = document.getElementById("NavBar")
     NavBar.style.position="absolute"
     NavBar.style.bottom="0px"
@@ -15,7 +20,7 @@ if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigat
     HomeDiv.style.height="105px"
     HomeDiv.style.borderRadius="105px"
     HomeDiv.style.marginTop= "auto"
-    HomeDiv.style.marginLeft="10px"
+    HomeDiv.style.marginLeft="30px"
     
    
     var HomeIcon = document.getElementById("HomeIcon")
@@ -29,7 +34,7 @@ if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigat
     LiveDiv.style.height="105px"
     LiveDiv.style.borderRadius="105px"
     LiveDiv.style.marginTop= "-105px"
-    LiveDiv.style.marginLeft="200px"
+    LiveDiv.style.marginLeft="250px"
    
     var LiveIcon = document.getElementById("LiveIcon")
     LiveIcon.style.width="70px"
@@ -43,7 +48,7 @@ if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigat
     ScheduleDiv.style.height="105px"
     ScheduleDiv.style.borderRadius="105px"
     ScheduleDiv.style.marginTop="-105px"
-    ScheduleDiv.style.marginLeft="400px"
+    ScheduleDiv.style.marginLeft="450px"
     var ScheduleIcon = document.getElementById("ScheduleIcon")
     ScheduleIcon.style.width="60px"
     ScheduleIcon.style.height="60px"
@@ -55,7 +60,7 @@ if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigat
     AccountDiv.style.height="105px"
     AccountDiv.style.borderRadius="105px"
     AccountDiv.style.marginTop="-105px"
-    AccountDiv.style.marginLeft="600px"
+    AccountDiv.style.marginLeft="650px"
    
     var AccountIcon = document.getElementById("AccountIcon")
     AccountIcon.style.width="70px"
@@ -68,7 +73,7 @@ if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigat
     SearchBarDiv.style.height="105px"
     SearchBarDiv.style.borderRadius="105px"
     SearchBarDiv.style.marginTop="-105px"
-    SearchBarDiv.style.marginLeft="800px"
+    SearchBarDiv.style.marginLeft="850px"
     SearchBarDiv.style.backgroundColor="transparent"
     SearchBarDiv.onmouseover = function(){
         SearchBarDiv.style.backgroundColor="#353535"
