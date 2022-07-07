@@ -15,6 +15,7 @@ if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigat
     HomeDiv.style.height="105px"
     HomeDiv.style.borderRadius="105px"
     HomeDiv.style.marginTop= "auto"
+    HomeDiv.style.marginLeft="-100px"
     
    
     var HomeIcon = document.getElementById("HomeIcon")
