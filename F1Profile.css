@@ -20,7 +20,7 @@ body{ background-color: var(--TI-Background-Color-1000); }
 /*--------------------------------*/
 
 ._MNB{
-    background-color: var(--TI-Background-Color-400);
+    background-color: var(--TI-Background-Color-600);
     position: fixed;
     height: 100vh;
     width: 150px;
@@ -28,5 +28,20 @@ body{ background-color: var(--TI-Background-Color-1000); }
     top:0;
 }
 
+@media (max-width: 1000px)
+{
+    ._MNB{
+        width: 50px;
+    }
+}
 
-
+@media (max-width: 450px)
+{
+    ._MNB{
+        width: 100vw;
+        height: 50px;
+        top: auto;
+        left:0;
+        bottom:0;
+    }
+}
