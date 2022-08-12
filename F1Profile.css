@@ -20,7 +20,7 @@ body{ background-color: var(--TI-Background-Color-1000); }
 /*--------------------------------*/
 
 ._MNB{
-    background-color: var(--TI-Background-Color-600);
+    background-color: var(--TI-Background-Color-400);
     position: fixed;
     height: 100vh;
     width: 150px;
