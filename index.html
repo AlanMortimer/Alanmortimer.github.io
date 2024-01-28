@@ -1,13 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+<head>
     <meta charset="UTF-8">
-    <title>Trackit</title>
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <link rel="stylesheet" href="F1Profile.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden; /* Hide the default body overflow to prevent scrolling of the entire page */
+        }
 
+        #image-container {
+            height: 100vh; /* Set the height of the container to 100% of the viewport height */
+            overflow: auto; /* Allow the container to be scrollable if the content overflows */
+        }
 
-    <body>
-        <Div class="_MNB"></Div>
-       
-    </body>
+        img {
+            width: 100%;
+            height: auto; /* Set the height to auto to maintain the image's aspect ratio */
+            display: block; /* Remove default inline display for proper sizing */
+        }
+    </style>
+</head>
+<body>
+    <div id="image-container">
+        <img src="Desktop - 1.png" alt="Scrollable image">
+    </div>
+</body>
 </html>
